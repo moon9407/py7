@@ -13,3 +13,16 @@ print(327-123)
 print(327*123)
 print(327/123)
 
+num = 327
+num2 = 123
+num3 = 10
+num4 = 5
+num = 20
+print(num+num2)
+print(num-num2)
+print(num*num2)
+print(num/num2)
+
+a1,a2,a3,a4,a5 = 327,123,10,5,20
+print(a1)
+print(a2)
