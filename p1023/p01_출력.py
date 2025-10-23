@@ -1,3 +1,4 @@
+# 출력 = print
 print("안녕")
 print("hello world")
 print("안녕"*3)
