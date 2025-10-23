@@ -13,6 +13,6 @@ num4 = True       # bool-참
 num5 = False      # bool-거짓
 # num6 = true     # 에러 (소문자 불가능)
 num7 = "true"     # 타입 - 문자열
-print(type(num7)) # str->, type() 변수의 타입을 확인할 수 있음.
+print(type(num7)) # # str-> String, type() 변수의 타입을 확인할수 있음.
 num8 = None
 # print(num+num2) # 문자열,숫자는 덧셈이 안됨.
