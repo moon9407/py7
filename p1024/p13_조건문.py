@@ -26,24 +26,31 @@
 
 # 내부(내장)모듈 -외워두기
 # 컴퓨터에 적용된 현재시간 가져오기
-import datetime
-now= datetime.datetime.now()
-print(now) #시간 전체 출력
-print(now.year,"년도")
-print(now.month,"월")
-print(now.day,"일")
-print(now.hour,"시")
-print(now.minute,"분")
-print(now.second,"초")
+# import datetime
+# now= datetime.datetime.now()
+# print(now) #시간 전체 출력
+# print(now.year,"년도")
+# print(now.month,"월")
+# print(now.day,"일")
+# print(now.hour,"시")
+# print(now.minute,"분")
+# print(now.second,"초")
 
-# 입력한 주민번호의 월을 파악해서 같은 현재 날짜와 같은 월이면
-# 이벤트 대상입니다., 이벤트 대상이 아닙니다. 출력하시오.
-jumin = input("주민번호를 입력하세요.")
-#880101-1111111
-if (int(jumin[2:4])==now.month):
-    print("이벤트 대상입니다.")
-else:
-    print("이벤트 대상이 아닙니다.")
+# # 입력한 주민번호의 월을 파악해서 같은 현재 날짜와 같은 월이면
+# # 이벤트 대상입니다., 이벤트 대상이 아닙니다. 출력하시오.
+# jumin = input("주민번호를 입력하세요.")
+# #880101-1111111
+# if (int(jumin[2:4])==now.month):
+#     print("이벤트 대상입니다.")
+# else:
+#     print("이벤트 대상이 아닙니다.")
+
+
+str1 = "abcdefg"
+print(str1[1:6:2]) # bdf 출력
+print(str1[:5]) # abcde
+print(str1[5:2:-1]) # fed 
+print(str1[::-1]) # gfedcba 
 
 
 # n = "03"
