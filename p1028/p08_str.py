@@ -87,3 +87,10 @@ for i in a_list:
 print(a_list)
 print(aa_list)
     
+print(list(range(10)))
+print(list("0"*10))
+
+b_list = list(range(1,10)) 
+print(b_list)
+
+
