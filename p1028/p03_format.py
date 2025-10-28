@@ -44,7 +44,7 @@ result = 98.234567
 ## 이름 : 유관순, 단계 : 3, 성공률 : 98.23%
 a_list = [name,rank,result]
 print("이름 : {}, 단계 : {}, 성공률 : {:.2f}%".format(*a_list))
-## f함수
+## f함수 (변수로만 했을때 유리)
 print(f"이름 : {name}, 단계 : {rank}, 성공률 : {result:.2f}%")
 print(f"이름 : {a_list[0]}, 단계 : {a_list[1]}, 성공률 : {a_list[2]:.2f}%")
 
