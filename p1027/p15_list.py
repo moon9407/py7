@@ -26,7 +26,7 @@ print(stuscore)
 stuscore.append(100)
 print(stuscore)
 
-# 1번째 방에 값 5를 추가
+# 1번째 방(주소,인덱스)에 값 5를 추가
 stuscore.insert(1,5)
 print(stuscore)
 

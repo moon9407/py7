@@ -4,7 +4,7 @@ a_list = [1,2,3]
 # 복합변수의 값이 변경됨.
 a_list.append(10)
 print(a_list)
-# insert - (위치,값) 원하는 위치에 값 추가 가능
+# insert - (위치(인덱스),값) 원하는 위치에 값 추가 가능
 a_list.insert(1,200)
 print(a_list)
 a2_list = [5,6,7]
