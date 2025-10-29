@@ -21,16 +21,18 @@ while True:
         total = kor+eng+math
         avg = total/3
         stu_list.append([name,kor,eng,math,total,avg])
-        print("이름 : {}".format(stu_list[0]))
-        print("국어점수 : {}".format(stu_list[1]))
-        print("영어점수 : {}".format(stu_list[2]))
-        print("수학점수 : {}".format(stu_list[3]))
-        print("합계 : {}".format(stu_list[4]))
-        print("평균 : {:.2f}".format(stu_list[5]))
-        print()
+      
         print("이름\t국어\t영어\t수학\t합계\t평균\t")
         print("-"*50)
-        print("{}\t{}\t{}\t{}\t{}\t{:.2f}\t".format(*stu_list))
+        #[
+            # ['홍길동',kor,eng,math,total,avg],
+            # ['유관순',kor,eng,math,total,avg]
+            # ]
+        print("{}\t{}\t{}\t{}\t{}\t{:.2f}\t".format(name,kor,eng,math,total,avg))
+
+
+# while 종료 후
+print(stu_list)
 
 
 # 5번 동안 숫자를 입력받아 합계를 출력하시오.
