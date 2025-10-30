@@ -1,30 +1,31 @@
-import random
 
-a_list=[]
-count=0
-c_list =[]
+stu_list = [
+    ['홍길동',80,80,80,270,90.00],
+    ['유관순','국어',90,'영어',90,'수학',90,280,90.00],
+    ['이순신',100,100,100,300,100.00]
+]
 
+print('''\
+    [ 수정 할 학생 번호 ]
+    0. 홍길동
+    1. 유관순
+    2. 이순신
+    '''
+)
+num = int(input("수정 할 학생 번호를 입력하세요.>>"))
+# 1.번 선택
+# 국어점수를 70점으로 변경하고, 합계와 평균도 같이 변경해서 출력
+if num == 1:
+    print(stu_list[1])
+    you = print(input("수정할 과목을 입력하세요."))
+    if you == '국어':    # 왜 안돼
+        a = int(input("수정할 점수를 입력하세요."))
+        stu_list[1][2] = a
+        stu_list[1][7] = stu_list[1][2]+stu_list[1][4]+stu_list[1][6]
+        stu_list[1][8] = stu_list[1][7]/3
+    
+print("   수정 후\n 이름{} 국어점수:{} 영어점수:{} 수학점수:{} 합계:{} 평균:{:.2f}"\
+    .format(stu_list[1][0],stu_list[1][2],stu_list[1][4],stu_list[1][6],stu_list[1][7],stu_list[1][8]))
 
-lotto = random.sample(range(1,46),6)
-lotto.sort()
-
-print(lotto)
-
-for i in range(6):
-    num = int(input("숫자를 입력하세요."))
-    a_list.append(num)
-
-a_list.sort()
-print(a_list)
-
-for i in lotto:
-    for j in a_list:
-        if i==j:
-            count = count+1
-            c_list.append(i)
-            break
-        
-print(c_list)
-
-        
+    
 
