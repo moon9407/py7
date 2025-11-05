@@ -14,7 +14,7 @@ stu_list = [
         'total':240,'avg':80.00,'rank':0},
     {'stuno':10102,'name':'유관순','kor':90,'eng':90,'math':90,\
         'total':270,'avg':90.00,'rank':0},
-    {'stuno':10102,'name':'이순신','kor':100,'eng':100,'math':100,\
+    {'stuno':10103,'name':'이순신','kor':100,'eng':100,'math':100,\
         'total':300,'avg':100.00,'rank':0},
 ] 
 stu_count = 10104  #학생번호-단순변수
